@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookingmate">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TravelPartner">
+        <activity android:name="com.example.bookingmate.share_request_display"></activity>
+        <activity android:name="com.example.bookingmate.RecycleViewFirebase" />
+        <activity android:name="com.example.bookingmate.rentlist" />
+        <activity android:name="com.example.bookingmate.Post_Rent" />
+        <activity android:name="com.example.bookingmate.share_display" />
+        <activity android:name="com.example.bookingmate.share_add" />
+        <activity android:name="com.example.bookingmate.Rent_add" />
+        <activity android:name="com.example.bookingmate.Share_request" />
+        <activity android:name="com.example.bookingmate.Register" />
+        <activity android:name="com.example.bookingmate.MainActivity" />
+        <activity android:name="com.example.bookingmate.Booking_display" />
+        <activity android:name="com.example.bookingmate.Payments_display" />
+        <activity android:name="com.example.bookingmate.payment_online" />
+        <activity android:name="com.example.bookingmate.Payment_card" />
+        <activity android:name="com.example.bookingmate.Payment_Home" />
+        <activity android:name="com.example.bookingmate.Booking_Home" />
+        <activity android:name="com.example.bookingmate.Booking" />
+        <activity android:name="com.example.bookingmate.Share" />
+        <activity android:name="com.example.bookingmate.Rent" />
+        <activity android:name="com.example.bookingmate.Payment" />
+        <activity android:name="com.example.bookingmate.Account" />
+
+        <activity android:name="com.example.bookingmate.login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

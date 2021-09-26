@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Booking_Home">
+
+    <Button
+        android:id="@+id/btn_searchAPayment"
+        android:layout_width="187dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/btn_makeAPayment"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:background="@drawable/custom_buttons"
+        android:onClick="searchApayment"
+        android:text="Search A Payment" />
+
+    <Button
+        android:id="@+id/btn_makeAPayment"
+        android:layout_width="187dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/btn_searchABooking"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:background="@drawable/custom_buttons"
+        android:onClick="makeApayment"
+        android:text="Make A Payment" />
+
+    <Button
+        android:id="@+id/btn_makeABooking"
+        android:layout_width="187dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:background="@drawable/custom_buttons"
+        android:onClick="makeAbooking"
+        android:text="Make A Booking" />
+
+    <Button
+        android:id="@+id/btn_searchABooking"
+        android:layout_width="187dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/btn_makeABooking"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:background="@drawable/custom_buttons"
+        android:onClick="searchABooking"
+        android:text="Search A Booking" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/bottom_navigation"
+app:itemBackground="@color/white"
+app:itemTextColor="@drawable/selector"
+app:itemIconTint="@drawable/selector"
+app:menu="@menu/menu_navigation"
+android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>

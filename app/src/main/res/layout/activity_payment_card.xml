@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment_card">
+
+    <EditText
+        android:id="@+id/payment_name"
+        android:layout_width="306dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/custom_inputs"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/payment_uid"
+        android:layout_width="306dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_inputs"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_name" />
+
+    <EditText
+        android:id="@+id/payment_amount"
+        android:layout_width="306dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_inputs"
+        android:ems="10"
+        android:hint="Amount"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_bid" />
+
+    <EditText
+        android:id="@+id/payment_cname"
+        android:layout_width="306dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_inputs"
+        android:ems="10"
+        android:maxLength="16"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_amount" />
+
+    <EditText
+        android:id="@+id/payment_nameinc"
+        android:layout_width="306dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_inputs"
+        android:ems="10"
+        android:hint="Card's Owner  Name"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_cname" />
+
+    <EditText
+        android:id="@+id/payment_year"
+        android:layout_width="306dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_inputs"
+        android:ems="10"
+        android:hint="MM/YYYY"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_nameinc" />
+
+    <EditText
+        android:id="@+id/payment_csv"
+        android:layout_width="306dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_inputs"
+        android:ems="10"
+        android:hint="CSV"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_year" />
+
+    <EditText
+        android:id="@+id/payment_bid"
+        android:layout_width="306dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_inputs"
+        android:ems="10"
+        android:hint="Booking ID"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_uid" />
+
+    <Button
+        android:id="@+id/btn_cardpayment"
+        android:layout_width="270dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_agree"
+        android:text="Make The Card payment"
+        app:backgroundTint="#8BC34A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payment_csv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
