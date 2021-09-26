@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:background="@drawable/selector"/>
+
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/man"
+        android:background="@drawable/selector"/>
+
+    <item
+        android:id="@+id/rent"
+        android:title="Rent"
+        android:icon="@drawable/taxi"
+        android:background="@drawable/selector"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/car"
+        android:background="@drawable/selector"/>
+
+    <item
+        android:id="@+id/booking"
+        android:title="Booking"
+        android:icon="@drawable/money"
+        android:background="@drawable/selector"/>
+
+</menu>

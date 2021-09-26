@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rent">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/white"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="167dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginRight="123dp"
+        android:background="@drawable/custom_buttons"
+        android:onClick="addrent"
+        android:text="Add Rent Cars" />
+
+    <Button
+        android:id="@+id/btn_SearchARent"
+        android:layout_width="187dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:onClick="SearchARent"
+        android:text="Search A rent"
+        android:background="@drawable/custom_buttons"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="129dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/btn_SearchARent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="141dp"
+        android:layout_marginRight="141dp"
+        android:layout_marginBottom="311dp"
+        android:onClick="show"
+        android:text="Show"
+        android:background="@drawable/custom_buttons"/>
+
+</RelativeLayout>

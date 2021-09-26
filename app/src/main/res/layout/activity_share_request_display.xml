@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".share_request_display">
+
+    <EditText
+        android:id="@+id/find_username"
+        android:layout_width="225dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/custom_inputs"
+        android:ems="10"
+        android:hint="Enter Your Username"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_buttons"
+        android:text="Search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/find_username" />
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="572dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Requester Details"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtnameSV4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etNameSV2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtnameSV5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ad ID"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etshareIADID2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtnameSV6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your User Name"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etshareID2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtUserIDSV2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Requester User Name"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etUserIDSV2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtContactNoSV2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contct Number"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etContactNoSV2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/txtReasonSV2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meeting point"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etaddress2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

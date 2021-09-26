@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Share_request">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="101dp">
+
+        <TextView
+            android:id="@+id/txtShairVehical"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:text="Share the Vehical"
+            android:textColor="#010527"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txtnameSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etNameSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtnameSV3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ad ID"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etshareIADID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtnameSV2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Requester User Name"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etshareID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtUserIDSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your user name"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etUserIDSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/txtContactNoSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contct Number"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etContactNoSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <TextView
+            android:id="@+id/txtReasonSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meeting point"
+            android:textColor="#061359"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnSubmitrequestSV"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="Submit the Request"
+            android:textSize="24sp"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

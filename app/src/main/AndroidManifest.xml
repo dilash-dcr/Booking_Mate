@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.travelpartner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TravelPartner">
+        <activity android:name=".share_request_display"></activity>
+        <activity android:name=".RecycleViewFirebase" />
+        <activity android:name=".rentlist" />
+        <activity android:name=".Post_Rent" />
+        <activity android:name=".share_display" />
+        <activity android:name=".share_add" />
+        <activity android:name=".Rent_add" />
+        <activity android:name=".Share_request" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Booking_display" />
+        <activity android:name=".Payments_display" />
+        <activity android:name=".payment_online" />
+        <activity android:name=".Payment_card" />
+        <activity android:name=".Payment_Home" />
+        <activity android:name=".Booking_Home" />
+        <activity android:name=".Booking" />
+        <activity android:name=".Share" />
+        <activity android:name=".Rent" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Account" />
+
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
