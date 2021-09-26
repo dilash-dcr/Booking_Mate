@@ -19,6 +19,7 @@ public class Booking_Home extends AppCompatActivity {
 
         BottomNavigationView btmnavi=findViewById(R.id.bottom_navigation);
 
+
         btmnavi.setSelectedItemId(R.id.booking);
         btmnavi.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
