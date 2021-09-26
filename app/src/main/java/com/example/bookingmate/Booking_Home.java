@@ -56,6 +56,7 @@ public class Booking_Home extends AppCompatActivity {
         });
     }
 
+
     public void makeAbooking(View view)
     {
         Intent intent=new Intent(this,Booking.class);
